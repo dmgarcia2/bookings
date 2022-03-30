@@ -9,10 +9,9 @@ import (
 
 	"github.com/alexedwards/scs/v2"
 	"github.com/dmgarcia2/bookings/internal/config"
+	"github.com/dmgarcia2/bookings/internal/handlers"
 	"github.com/dmgarcia2/bookings/internal/models"
-	"github.com/dmgarcia2/bookings/pkg/config"
-	"github.com/dmgarcia2/bookings/pkg/handlers"
-	"github.com/dmgarcia2/bookings/pkg/render"
+	"github.com/dmgarcia2/bookings/internal/render"
 )
 
 const portNumber = ":8080"
