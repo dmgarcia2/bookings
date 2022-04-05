@@ -3,12 +3,13 @@ package handlers
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/tsawler/bookings-app/internal/config"
-	"github.com/tsawler/bookings-app/internal/forms"
-	"github.com/tsawler/bookings-app/internal/models"
-	"github.com/tsawler/bookings-app/internal/render"
 	"log"
 	"net/http"
+
+	"github.com/dmgarcia2/bookings/internal/config"
+	"github.com/dmgarcia2/bookings/internal/forms"
+	"github.com/dmgarcia2/bookings/internal/models"
+	"github.com/dmgarcia2/bookings/internal/render"
 )
 
 // Repo the repository used by the handlers
