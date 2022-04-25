@@ -13,8 +13,8 @@ import (
 	"github.com/dmgarcia2/bookings/internal/config"
 	"github.com/dmgarcia2/bookings/internal/models"
 	"github.com/dmgarcia2/bookings/internal/render"
-	"github.com/go-chi/chi"
-	"github.com/go-chi/chi/middleware"
+	"github.com/go-chi/chi/v5"
+	"github.com/go-chi/chi/v5/middleware"
 	"github.com/justinas/nosurf"
 )
 
